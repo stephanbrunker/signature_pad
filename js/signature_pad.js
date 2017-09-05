@@ -15,10 +15,11 @@
 }(this, function () {
 
 /*!
- * Signature Pad v1.5.3
- * https://github.com/szimek/signature_pad
+ * Signature Pad v2.0 by Stephan Brunker
+ * forked from
+ * https://github.com/szimek/signature_pad v1.5.3
  *
- * Copyright 2016 Szymon Nowak
+ * Copyright 2016 Szymon Nowak / 2017 Stephan Brunker
  * Released under the MIT license
  *
  * The main idea and some parts of the code (e.g. drawing variable width Bézier curve) are taken from:

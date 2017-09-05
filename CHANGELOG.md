@@ -1,4 +1,13 @@
 ## Changelog
+### 2.0 new Fork by stephanbrunker 
+* In this completely revised version of the signature-pad for Javascript I did these changes:
+* First, I sorted and commented the different functions for better insight. 
+* Then I rewrote most of drawing logic. The original version didn't like dots, so I sorted it out following the cleanest way to do it. In Javascript, the DOWN event has the same coordinates as the first MOVE, and the last MOVE has the same as the UP event, even if there is only a single click, an MOVE event is fired. So, i add points at MOVE events, and at the UP event i decide: If the points array has four members, a bezier curve is drawn until the 3rd point, so I double the last point to draw it to the last position. Three members aren't possible, because then the first point would be doubled to start the bezier. With two members, you can only draw a single line, so I added a function for this and with only one point you need a dot - I added this also. 
+* consolidated some of the functions to make it cleaner.
+* the Pad works now exactly the same way as my fork of the Android version https://github.com/stephanbrunker/android-signaturepad
+* cleaned out the repository with only the essentials
+* I made up a new fork because my pull request to the upstream repo was denied - perhaps too many changes ...
+
 ### 1.5.3
 * Fix `touchend` event on touch devices. (#150) [mtomic](https://github.com/mtomic)
 * Fix handling touch events in Egde browser. (#134) [dideldum73](https://github.com/dideldum73)
