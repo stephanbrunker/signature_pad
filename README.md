@@ -7,14 +7,14 @@ It works in all modern desktop and mobile browsers and doesn't depend on any ext
 This is a new fork based on [szimek/signature_pad](https://github.com/szimek/signature_pad) following these goals: 
 * minimal footprint - only the `app.js` and `signature_pad.js` files and one CSS formatted element `signature-pad canvas` is needed
 * also an absolutely minium example with just the basic elements
-* rewritten drawing logic to make it similar to the [Android version](https://github.com/stephanbrunker/android-signaturepad) 
+* rewritten drawing logic to make it similar to the [Android version](https://github.com/stephanbrunker/android-signaturepad), much more tidier source code and fixed some issues like drawing dots and the draw start sequence. 
 
 ![Example](https://user-images.githubusercontent.com/18150071/30086866-aaceae46-929d-11e7-936a-fb830d36bd9f.JPG)
 
 ## Demo
 [Demo](http://stephanbrunker.github.io/signature_pad) works in desktop and mobile browsers. You can check out its [source code](https://github.com/stephanbrunker/js/signature_pad.js). 
 
-For some tips on how to handle window resize and high DPI screens you can also find more about in [HTML5 Rocks tutorial](http://www.html5rocks.com/en/tutorials/canvas/hidpi) or the [base](https://github.com/szimek/signature_pad) of this fork. There you can also get a much more styled version using CSS and more info to use the library on runtime with JS.
+For some tips on how to handle window resize and high DPI screens you can also find more about in [HTML5 Rocks tutorial](http://www.html5rocks.com/en/tutorials/canvas/hidpi) or the [base](https://github.com/szimek/signature_pad) of this fork. There you can also get a much more styled version using CSS and more info to use the library on runtime with JavaScript.
 
 ## Usage
 
