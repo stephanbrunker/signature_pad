@@ -12,7 +12,7 @@ This is a new fork based on [szimek/signature_pad](https://github.com/szimek/sig
 ![Example](https://user-images.githubusercontent.com/18150071/30086866-aaceae46-929d-11e7-936a-fb830d36bd9f.JPG)
 
 ## Demo
-[Demo](http://stephanbrunker.github.io/signature_pad) works in desktop and mobile browsers. You can check out its [source code](https://github.com/stephanbrunker/js/signature_pad.js). 
+[Demo](http://stephanbrunker.github.io/signature_pad) works in desktop and mobile browsers. You can check out its [source code](https://github.com/stephanbrunker/signature_pad/blob/master/js/signature_pad.js). 
 
 For some tips on how to handle window resize and high DPI screens you can also find more about in [HTML5 Rocks tutorial](http://www.html5rocks.com/en/tutorials/canvas/hidpi) or the [base](https://github.com/szimek/signature_pad) of this fork. There you can also get a much more styled version using CSS and more info to use the library on runtime with JavaScript.
 
