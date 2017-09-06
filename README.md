@@ -51,7 +51,7 @@ $img_data = $_POST['img-data']; // contains the image as dataURL
 ### Options
 <dl>
 <dt>minWidth</dt>
-<dd>(float) Minimum width of a line. Defaults to <code>0.5</code>.</dd>
+<dd>(float) Minimum width of a line. Defaults to <code>1</code>.</dd>
 <dt>maxWidth</dt>
 <dd>(float) Maximum width of a line. Defaults to <code>2.5</code>.</dd>
 <dt>backgroundColor</dt>
